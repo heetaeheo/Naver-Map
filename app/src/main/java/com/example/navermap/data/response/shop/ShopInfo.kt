@@ -1,8 +1,7 @@
-package com.example.navermap.data.repository.shop
+package com.example.navermap.data.response.shop
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-
 
 
 data class ShopInfo(
@@ -13,4 +12,3 @@ data class ShopInfo(
     @SerializedName("data")
     val shopList: List<ShopData>
 )
-

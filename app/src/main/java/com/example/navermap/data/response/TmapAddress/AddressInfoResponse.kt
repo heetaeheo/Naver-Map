@@ -1,5 +1,4 @@
-package com.example.navermap.data.repository.TmapAddress
-
+package com.example.navermap.data.response.TmapAddress
 
 data class AddressInfoResponse(
     val addressInfo: AddressInfo

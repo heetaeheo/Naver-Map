@@ -1,4 +1,4 @@
-package com.example.navermap
+package com.example.navermap.presentation.MainActivity
 
 import android.Manifest
 import android.graphics.Color
@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import com.example.navermap.R
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
 import com.naver.maps.map.overlay.InfoWindow

@@ -1,7 +1,8 @@
-package com.example.navermap.data.repository.TmapAddress
+package com.example.navermap.data.response.TmapAddress
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
+
 
 data class AddressInfo(
     @SerializedName("fullAddress")
